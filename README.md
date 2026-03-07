@@ -3,6 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C++-blue)
 ![Problems](https://img.shields.io/badge/Problems-Solving-orange)
 ![DSA](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-green)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Practice-LeetCode-yellow)
 ![GitHub stars](https://img.shields.io/github/stars/cszxfy/DSA-solutions?style=social)
 
