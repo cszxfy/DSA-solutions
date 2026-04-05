@@ -50,6 +50,6 @@ DSA-Solutions
 
 ## 🎯 Goal
 
-- Practice DSA regularly
-- Improve problem-solving skills
-- Prepare for coding interviews
+- Practice DSA regularly.
+- Improve problem-solving skills.
+- Prepare for coding interviews.
