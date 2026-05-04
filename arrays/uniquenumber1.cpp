@@ -44,4 +44,4 @@ class Solution {
 
         return -1;   
     }
-};
+};//here my silly doubt was why like finding max i but i forogt about hash array like we have to store till the last max elemnt to store the freq;
