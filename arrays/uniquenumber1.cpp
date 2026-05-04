@@ -45,3 +45,20 @@ class Solution {
         return -1;   
     }
 };//here my silly doubt was why like finding max i but i forogt about hash array like we have to store till the last max elemnt to store the freq;
+//better approach use the map here what about the long value and i guess -ve vals;
+ class Solution {
+  public:
+    int findUnique(vector<int> &arr) {
+        int n = arr.size();
+       map<long, long>mpp;
+       for(int i =0;i<n;i++){
+           mpp[arr[i]]++;
+       }
+       for(auto it:mpp){
+           if(it.second==1){
+               return it.first;
+           }
+       }
+       return -1;
+    }
+};
