@@ -6,10 +6,8 @@ int main() {
     int count = 0;
     while (n > 0) {
         int digit = n % 10;
-
         if (digit == 4 || digit == 7)
             count++;
-
         n /= 10;
     }
     bool lucky = true;
@@ -24,7 +22,7 @@ int main() {
         count /= 10;
     }
     if (lucky)
-        cout << "YES";
+       cout << "YES";
     else
         cout << "NO";
     return 0;
