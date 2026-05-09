@@ -46,3 +46,26 @@ class Solution {
     return maxLen;
     }
 };
+// if there are only the postive numbers and non-negative numbers(we can use two pointer that is bit optimal )
+class Solution {
+  public:
+    int longestSubarray(vector<int>& arr, int k) {
+      long long sum=arr[0];
+      int maxlen=0;
+      int n =arr.size();
+      int left =0,right=0;
+      while(right<n){
+          while(left<=right && sum>k){
+              sum-=arr[left];
+              left++;
+          }
+          if(sum==k){
+              maxlen=max(maxlen,right-left+1);
+          }
+          right++;
+          if(right<n) sum+=arr[right];
+      }
+      return maxlen;
+        
+    }
+};
