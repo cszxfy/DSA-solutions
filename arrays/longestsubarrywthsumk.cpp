@@ -46,7 +46,7 @@ class Solution {
     return maxLen;
     }
 };
-// if there are only the postive numbers and non-negative numbers(we can use two pointer that is bit optimal )
+// if there are only the postive number(we can use two pointer that is bit optimal )
 class Solution {
   public:
     int longestSubarray(vector<int>& arr, int k) {
@@ -69,6 +69,7 @@ class Solution {
         
     }
 };
+//this is the another question to find the maximum sum :
 //optimal app using the kadane's algo :
 class Solution {
 public:
