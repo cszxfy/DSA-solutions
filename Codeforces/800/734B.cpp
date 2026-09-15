@@ -6,16 +6,13 @@ int main() {
     cin.tie(nullptr);
     long long k2, k3, k5, k6;
     cin >> k2 >> k3 >> k5 >> k6;
-    long long arr[4] = {k2, k3, k5, k6};
-    long long x = min(arr[0], arr[1]);
-    arr[0] -= x;
-    arr[1] -= x;
-    long long y = min(arr[0], min(arr[2], arr[3]));
-    arr[0] -= y;
-    arr[2] -= y;
-    arr[3] -= y;
-    long long ans = x * 32 + y * 256;
+    long long x = min(k2, min(k5, k6));
+    k2 -= x;
+    k5 -= x;
+    k6 -= x;
+    long long y = min(k2, k3);
+    long long ans = x * 256 + y * 32;
     cout << ans << endl;
-    
+
     return 0;
 }
